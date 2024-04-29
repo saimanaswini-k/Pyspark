@@ -41,6 +41,6 @@ try:
   print("Successfully wrote data to Kafka")
 
 except Exception as e:
-  print(f"Error reading/writing data: {e}")
+  print(f"Error writing data: {e}")
 
 spark.stop()
